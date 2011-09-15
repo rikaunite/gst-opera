@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github"
+           fetch="git://github.com/" />
+
+  <default revision="master"
+           remote="github" />
+
+  <project path="gst-opera" name="rikaunite/gst-opera" />
+  <project path="glib" name="rikaunite/gst-opera-glib" />
+  <project path="libogg" name="rikaunite/gst-opera-libogg" />
+  <project path="libtheora" name="rikaunite/gst-opera-libtheora" />
+  <project path="libvorbis" name="rikaunite/gst-opera-libvorbis" />
+  <project path="libvpx" name="rikaunite/gst-opera-libvpx" />
+  <project path="manifest" name="rikaunite/gst-opera-manifest" />
+</manifest>
