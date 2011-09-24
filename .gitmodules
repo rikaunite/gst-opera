@@ -1,0 +1,30 @@
+[submodule "build"]
+	path = build
+	url = ../gst-opera_build.git
+[submodule "glib"]
+	path = glib
+	url = ../gst-opera_glib.git
+[submodule "gstreamer"]
+	path = gstreamer
+	url = ../gst-opera_gstreamer.git
+[submodule "gst-plugins-base"]
+	path = gst-plugins-base
+	url = ../gst-opera_gst-plugins-base.git
+[submodule "gst-plugins-good"]
+	path = gst-plugins-good
+	url = ../gst-opera_gst-plugins-good.git
+[submodule "gst-plugins-bad"]
+	path = gst-plugins-bad
+	url = ../gst-opera_gst-plugins-bad.git
+[submodule "libogg"]
+	path = libogg
+	url = ../gst-opera_libogg.git
+[submodule "libvorbis"]
+	path = libvorbis
+	url = ../gst-opera_libvorbis.git
+[submodule "libtheora"]
+	path = libtheora
+	url = ../gst-opera_libtheora.git
+[submodule "libvpx"]
+	path = libvpx
+	url = ../gst-opera_libvpx.git

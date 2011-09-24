@@ -1,0 +1,17 @@
+#!/bin/sh
+#
+# Add the upstream repositories as a remotes
+
+cd glib
+git remote add upstream "git://git.gnome.org/glib.git"
+cd ..
+
+for path in gstreamer gst-plugins-base gst-plugins-good gst-plugins-bad; do
+    cd ${path}
+    git remote add upstream "git://anongit.freedesktop.org/gstreamer/${path}.git"
+    cd ..
+done
+
+cd libvpx
+git remote add upstream "http://code.google.com/p/webm.libvpx"
+cd ..

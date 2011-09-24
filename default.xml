@@ -16,5 +16,7 @@
   <project path="libvorbis" name="gst-opera_libvorbis" />
   <project path="libtheora" name="gst-opera_libtheora" />
   <project path="libvpx" name="gst-opera_libvpx" />
-  <project path="manifest" name="gst-opera" />
+  <project path="manifest" name="gst-opera">
+    <copyfile src="remotes" dest="remotes" />
+  </project>
 </manifest>
