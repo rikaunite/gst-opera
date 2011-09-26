@@ -28,3 +28,6 @@
 [submodule "libvpx"]
 	path = libvpx
 	url = ../gst-opera_libvpx.git
+[submodule "libwavpack"]
+	path = libwavpack
+	url = ../gst-opera_libwavpack.git
